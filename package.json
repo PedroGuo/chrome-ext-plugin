@@ -1,13 +1,13 @@
 {
-  "name": "vite-vanilla-ts-lib-starter",
+  "name": "simple-css-selector",
   "private": true,
   "version": "0.0.1",
-  "main": "./dist/vite-ts-lib-starter.cjs",
-  "module": "./dist/vite-ts-lib-starter.mjs",
+  "main": "./dist/simple-css-selector.cjs",
+  "module": "./dist/simple-css-selector.mjs",
   "exports": {
     ".": {
-      "require": "./dist/vite-ts-lib-starter.cjs",
-      "import": "./dist/vite-ts-lib-starter.mjs"
+      "require": "./dist/simple-css-selector.cjs",
+      "import": "./dist/simple-css-selector.mjs"
     }
   },
   "scripts": {
@@ -42,5 +42,9 @@
     "ts-node": "^10.9.1",
     "typescript": "^4.8.3",
     "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "@medv/finder": "^2.1.0",
+    "mitt": "^3.0.0"
   }
 }
